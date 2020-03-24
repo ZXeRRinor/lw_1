@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o CMakeFiles/qt_test.dir/main.cpp.o CMakeFiles/qt_test.dir/PoundsToKilogramsConverter.cpp.o  -o qt_test  /usr/lib/libQt5Widgets.so.5.14.1 /usr/lib/libQt5Gui.so.5.14.1 /usr/lib/libQt5Core.so.5.14.1 
