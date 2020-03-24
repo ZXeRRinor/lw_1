@@ -54,10 +54,7 @@
 	],
 	"MOC_PREDEFS_FILE" : "/home/zxerrinor/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/cpp_programming/proj1/mainwindow/cmake-build-debug/qt_test_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
-	"MOC_SKIP" : 
-	[
-		"/home/zxerrinor/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/cpp_programming/proj1/mainwindow/cmake-build-debug/ui_funt.h"
-	],
+	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
 	"PARSE_CACHE_FILE" : "/home/zxerrinor/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/cpp_programming/proj1/mainwindow/cmake-build-debug/CMakeFiles/qt_test_autogen.dir/ParseCache.txt",

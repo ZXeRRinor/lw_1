@@ -123,13 +123,7 @@
 		<Unit filename="/home/zxerrinor/Документы/cpp_programming/proj1/mainwindow/cmake-build-debug/qt_test_autogen/mocs_compilation.cpp">
 			<Option target="qt_test"/>
 		</Unit>
-		<Unit filename="/home/zxerrinor/Документы/cpp_programming/proj1/mainwindow/cmake-build-debug/ui_funt.h">
-			<Option target="qt_test"/>
-		</Unit>
 		<Unit filename="/home/zxerrinor/Документы/cpp_programming/proj1/mainwindow/main.cpp">
-			<Option target="qt_test"/>
-		</Unit>
-		<Unit filename="/home/zxerrinor/Документы/cpp_programming/proj1/mainwindow/ui/funt.ui">
 			<Option target="qt_test"/>
 		</Unit>
 		<Unit filename="/home/zxerrinor/Документы/cpp_programming/proj1/mainwindow/CMakeLists.txt">

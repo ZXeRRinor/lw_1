@@ -16,6 +16,6 @@ find_package (Qt5Core)
 find_package (Qt5Widgets)
 
 # Определяем цель сборки
-qt5_wrap_ui(QT_TEST_UI_HEADERS  ui/funt.ui)                           # UI-файлы
+#qt5_wrap_ui(QT_TEST_UI_HEADERS  ui/funt.ui)                           # UI-файлы
 add_executable(qt_test main.cpp ${QT_TEST_UI_HEADERS} PoundsToKilogramsConverter.h PoundsToKilogramsConverter.cpp)    # Исполняемые файлы
 target_link_libraries(qt_test ${Qt5Core_LIBRARIES} ${Qt5Widgets_LIBRARIES})         # Линковка библиотек

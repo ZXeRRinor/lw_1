@@ -7,7 +7,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o"
   "qt_test"
   "qt_test.pdb"
-  "ui_funt.h"
 )
 
 # Per-language clean rules from dependency scanning.
