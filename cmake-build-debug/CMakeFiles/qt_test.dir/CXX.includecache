@@ -7,6 +7,10 @@
 #IncludeRegexTransform: 
 
 /home/zxerrinor/Документы/cpp_programming/proj1/mainwindow/PoundsToKilogramsConverter.cpp
+charconv
+-
+sstream
+-
 PoundsToKilogramsConverter.h
 /home/zxerrinor/Документы/cpp_programming/proj1/mainwindow/PoundsToKilogramsConverter.h
 

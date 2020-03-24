@@ -1,8 +1,10 @@
+#include <charconv>
+#include <sstream>
 #include "PoundsToKilogramsConverter.h"
 
 void PoundsToKilogramsConverter::setupUi() {
     if (this->objectName().isEmpty())
-        this->setObjectName(QString::fromUtf8("this"));
+        this->setObjectName(QString::fromUtf8("PoundsToKilogramsConverter"));
     this->resize(639, 520);
     programName = new QLabel(this);
     programName->setObjectName(QString::fromUtf8("programName"));
@@ -31,15 +33,32 @@ void PoundsToKilogramsConverter::setupUi() {
     QMetaObject::connectSlotsByName(this);
 
     this->setWindowTitle(QCoreApplication::translate("this", "_", nullptr));
-    programName->setText(QCoreApplication::translate("this", "\320\237\320\265\321\200\320\265\321\201\321\207\321\221\321\202 \320\262\320\265\321\201\320\260 \320\270\320\267 \321\204\321\203\320\275\321\202\320\276\320\262 \320\262 \320\272\320\270\320\273\320\276\320\263\321\200\320\260\320\274\320\274\321\213", nullptr));
-    inputDescription->setText(QCoreApplication::translate("this", "\320\222\320\262\320\265\320\264\320\270\321\202\320\265 \320\262\320\265\321\201 \320\262 \321\204\321\203\320\275\321\202\320\260\321\205", nullptr));
+    programName->setText(QCoreApplication::translate("this", "Пересчёт веса из фунтов в килограммы", nullptr));
+    inputDescription->setText(QCoreApplication::translate("this", "Введите вес в фунтах", nullptr));
     output->setText(QString());
-    recountButton->setText(QCoreApplication::translate("this", "\320\237\320\265\321\200\320\265\321\201\321\207\320\270\321\202\320\260\321\202\321\214", nullptr));
-    exitButton->setText(QCoreApplication::translate("this", "\320\222\321\213\321\205\320\276\320\264", nullptr));
+    recountButton->setText(QCoreApplication::translate("this", "Пересчитать", nullptr));
+    exitButton->setText(QCoreApplication::translate("this", "Выход", nullptr));
 }
 
 void PoundsToKilogramsConverter::recount() {
-    output->setText(QCoreApplication::translate("this", "testOutput", nullptr));
+    auto inputText = input->toPlainText();
+    std::string inputAsStdString = inputText.toStdString();
+    bool inputIsNumber = true;
+    char dots = 0;
+    for (char i : inputAsStdString) {
+        inputIsNumber = inputIsNumber && (isdigit(i) || (i == ','));
+        if (i == '.') dots++;
+    }
+    inputIsNumber = inputIsNumber && (dots <= 1) && (inputAsStdString.length() > 0);
+    std::string outputText;
+    if (inputIsNumber) {
+        std::ostringstream stringStream;
+        stringStream << inputAsStdString << " фунт(а/ов) — это " << std::stof(inputAsStdString) * 0.4059 << " кг";
+        outputText = stringStream.str();
+    } else {
+        outputText = "Введено некорректное значение.";
+    }
+    output->setText(QString::fromUtf8(outputText.c_str()));
 }
 
 void PoundsToKilogramsConverter::quit() {

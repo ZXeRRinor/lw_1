@@ -1,7 +1,5 @@
 #include <iostream>
-#include <ui_funt.h>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QDialog>
 #include "PoundsToKilogramsConverter.h"
 
 int main(int argc, char *argv[]) {
@@ -9,6 +7,5 @@ int main(int argc, char *argv[]) {
     auto *pound_dialog = new PoundsToKilogramsConverter();
     pound_dialog->setupUi();
     pound_dialog->show();
-    pound_dialog;
     return QApplication::exec();
 }

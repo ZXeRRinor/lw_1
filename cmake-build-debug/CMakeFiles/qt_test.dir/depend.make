@@ -130,7 +130,6 @@ CMakeFiles/qt_test.dir/main.cpp.o: ../PoundsToKilogramsConverter.h
 CMakeFiles/qt_test.dir/main.cpp.o: ../main.cpp
 CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtCore/QArgument
 CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtCore/QCoreApplication
-CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtCore/QVariant
 CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtCore/qalgorithms.h
 CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtCore/qarraydata.h
 CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtCore/qatomic.h
@@ -241,7 +240,6 @@ CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtGui/qvector2d.h
 CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtGui/qwindowdefs.h
 CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtGui/qwindowdefs_win.h
 CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtWidgets/QApplication
-CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtWidgets/QDialog
 CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtWidgets/QLabel
 CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtWidgets/QPushButton
 CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtWidgets/QTextEdit
@@ -249,7 +247,6 @@ CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtWidgets/qabstractbutton.h
 CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtWidgets/qabstractscrollarea.h
 CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtWidgets/qapplication.h
 CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtWidgets/qdesktopwidget.h
-CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtWidgets/qdialog.h
 CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtWidgets/qframe.h
 CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtWidgets/qlabel.h
 CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtWidgets/qpushbutton.h
@@ -258,7 +255,6 @@ CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtWidgets/qtextedit.h
 CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtWidgets/qtwidgets-config.h
 CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtWidgets/qtwidgetsglobal.h
 CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtWidgets/qwidget.h
-CMakeFiles/qt_test.dir/main.cpp.o: ui_funt.h
 
 CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o: ../PoundsToKilogramsConverter.h
 CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o: qt_test_autogen/EWIEGA46WW/moc_PoundsToKilogramsConverter.cpp

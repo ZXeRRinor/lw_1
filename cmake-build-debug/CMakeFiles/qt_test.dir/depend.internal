@@ -131,7 +131,6 @@ CMakeFiles/qt_test.dir/main.cpp.o
  /home/zxerrinor/Документы/cpp_programming/proj1/mainwindow/main.cpp
  /usr/include/qt/QtCore/QArgument
  /usr/include/qt/QtCore/QCoreApplication
- /usr/include/qt/QtCore/QVariant
  /usr/include/qt/QtCore/qalgorithms.h
  /usr/include/qt/QtCore/qarraydata.h
  /usr/include/qt/QtCore/qatomic.h
@@ -242,7 +241,6 @@ CMakeFiles/qt_test.dir/main.cpp.o
  /usr/include/qt/QtGui/qwindowdefs.h
  /usr/include/qt/QtGui/qwindowdefs_win.h
  /usr/include/qt/QtWidgets/QApplication
- /usr/include/qt/QtWidgets/QDialog
  /usr/include/qt/QtWidgets/QLabel
  /usr/include/qt/QtWidgets/QPushButton
  /usr/include/qt/QtWidgets/QTextEdit
@@ -250,7 +248,6 @@ CMakeFiles/qt_test.dir/main.cpp.o
  /usr/include/qt/QtWidgets/qabstractscrollarea.h
  /usr/include/qt/QtWidgets/qapplication.h
  /usr/include/qt/QtWidgets/qdesktopwidget.h
- /usr/include/qt/QtWidgets/qdialog.h
  /usr/include/qt/QtWidgets/qframe.h
  /usr/include/qt/QtWidgets/qlabel.h
  /usr/include/qt/QtWidgets/qpushbutton.h
@@ -259,7 +256,6 @@ CMakeFiles/qt_test.dir/main.cpp.o
  /usr/include/qt/QtWidgets/qtwidgets-config.h
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h
  /usr/include/qt/QtWidgets/qwidget.h
- ui_funt.h
 CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o
  ../PoundsToKilogramsConverter.h
  /home/zxerrinor/Документы/cpp_programming/proj1/mainwindow/cmake-build-debug/qt_test_autogen/EWIEGA46WW/moc_PoundsToKilogramsConverter.cpp
