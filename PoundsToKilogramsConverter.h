@@ -9,18 +9,18 @@ class PoundsToKilogramsConverter : public QWidget {
 Q_OBJECT
 
 public:
-    PoundsToKilogramsConverter();
-
-    QLabel *programName;
-    QTextEdit *input;
-    QLabel *inputDescription;
-    QLabel *output;
-    QPushButton *recountButton;
-    QPushButton *exitButton;
+    QLabel *programName{};
+    QTextEdit *input{};
+    QLabel *inputDescription{};
+    QLabel *output{};
+    QPushButton *recountButton{};
+    QPushButton *exitButton{};
 
     void setupUi();
 
 private slots:
+
     void recount();
+
     void quit();
 };

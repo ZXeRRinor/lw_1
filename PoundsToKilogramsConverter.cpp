@@ -65,7 +65,3 @@ void PoundsToKilogramsConverter::quit() {
     this->close();
 }
 
-PoundsToKilogramsConverter::PoundsToKilogramsConverter() {
-
-}
-
