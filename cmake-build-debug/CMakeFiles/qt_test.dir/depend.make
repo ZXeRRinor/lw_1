@@ -126,7 +126,10 @@ CMakeFiles/qt_test.dir/PoundsToKilogramsConverter.cpp.o: /usr/include/qt/QtWidge
 CMakeFiles/qt_test.dir/PoundsToKilogramsConverter.cpp.o: /usr/include/qt/QtWidgets/qtwidgetsglobal.h
 CMakeFiles/qt_test.dir/PoundsToKilogramsConverter.cpp.o: /usr/include/qt/QtWidgets/qwidget.h
 
+CMakeFiles/qt_test.dir/main.cpp.o: ../PoundsToKilogramsConverter.h
 CMakeFiles/qt_test.dir/main.cpp.o: ../main.cpp
+CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtCore/QArgument
+CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtCore/QCoreApplication
 CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtCore/QVariant
 CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtCore/qalgorithms.h
 CMakeFiles/qt_test.dir/main.cpp.o: /usr/include/qt/QtCore/qarraydata.h
