@@ -26,6 +26,7 @@ void PoundsToKilogramsConverter::setupUi() {
     exitButton->setGeometry(QRect(470, 430, 88, 34));
 
     QObject::connect(exitButton, SIGNAL(clicked()), this, SLOT(quit()));
+    QObject::connect(recountButton, SIGNAL(clicked()), this, SLOT(recount()));
 
     QMetaObject::connectSlotsByName(this);
 
@@ -38,7 +39,7 @@ void PoundsToKilogramsConverter::setupUi() {
 }
 
 void PoundsToKilogramsConverter::recount() {
-
+    output->setText(QCoreApplication::translate("this", "testOutput", nullptr));
 }
 
 void PoundsToKilogramsConverter::quit() {
