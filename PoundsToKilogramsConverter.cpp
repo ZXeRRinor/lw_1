@@ -30,14 +30,14 @@ void PoundsToKilogramsConverter::setupUi() {
     QObject::connect(exitButton, SIGNAL(clicked()), this, SLOT(quit()));
     QObject::connect(recountButton, SIGNAL(clicked()), this, SLOT(recount()));
 
-    QMetaObject::connectSlotsByName(this);
-
     this->setWindowTitle(QCoreApplication::translate("this", "_", nullptr));
     programName->setText(QCoreApplication::translate("this", "Пересчёт веса из фунтов в килограммы", nullptr));
     inputDescription->setText(QCoreApplication::translate("this", "Введите вес в фунтах", nullptr));
     output->setText(QString());
     recountButton->setText(QCoreApplication::translate("this", "Пересчитать", nullptr));
     exitButton->setText(QCoreApplication::translate("this", "Выход", nullptr));
+
+    QMetaObject::connectSlotsByName(this);
 }
 
 void PoundsToKilogramsConverter::recount() {
